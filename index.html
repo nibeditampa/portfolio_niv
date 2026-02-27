@@ -622,6 +622,29 @@
             box-shadow: 0 20px 50px rgba(0, 243, 255, 0.3);
         }
 
+        .project-links {
+            display: flex;
+            gap: 0.8rem;
+            margin-top: 1.2rem;
+            flex-wrap: wrap;
+        }
+
+        .project-link {
+            padding: 0.45rem 0.9rem;
+            border: 1px solid var(--neon-cyan);
+            border-radius: 8px;
+            color: var(--neon-cyan);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.25s ease;
+        }
+
+        .project-link:hover {
+            background: var(--neon-cyan);
+            color: #0a0a0a;
+        }
+
+
         .project-image {
             width: 100%;
             height: 250px;
@@ -961,7 +984,7 @@
                 </p>
                 <div class="hero-buttons">
                     <button class="cta-button">VIEW MY WORK</button>
-                    <a href="your-resume.pdf" target="_blank" class="resume-button">
+                    <a href="assets/pdf/NIBEDITA.CV.pdf" target="_blank" class="resume-button">
                         <span class="resume-icon">📄</span>
                         VIEW RESUME
                     </a>
@@ -972,7 +995,7 @@
                 <div class="image-frame">
                     <div class="profile-image">
                  <div class="image-placeholder">
-                  <img src="assets/me.jpg" alt="My photo"
+                  <img src="assets/images/IMG-20260203-WA0014.jpg (1).jpeg" alt="My photo"
                   style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
                  </div>
                     </div>
@@ -1003,7 +1026,7 @@
             <div class="skills-grid">
                 <div class="skill-item">
                     <div class="skill-name">Frontend Development</div>
-                    <div class="skill-level">React, Vue, Next.js</div>
+                    <div class="skill-level">React, Next.js</div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-name">Backend Engineering</div>
@@ -1011,7 +1034,7 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-name">UI/UX Design</div>
-                    <div class="skill-level">Figma, Adobe XD</div>
+                    <div class="skill-level">Figma, Adobe</div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-name">3D & Animation</div>
@@ -1068,10 +1091,10 @@
                     <div class="skill-bar-container">
                         <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
                             <span style="font-family: 'Orbitron', sans-serif; color: var(--neon-cyan); font-weight: 600;">JavaScript / TypeScript</span>
-                            <span style="color: var(--light-gray);">85%</span>
+                            <span style="color: var(--light-gray);">80%</span>
                         </div>
                         <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
                         </div>
                     </div>
 
@@ -1135,6 +1158,11 @@
                         <span class="tag">HTMl/TailwindCSS</span>
                         <span class="tag">SQLite</span>
                     </div>
+                     <div class="project-links">
+                        <a class="project-link" href="https://github.com/nibeditampa/CMS_Done" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a class="project-link" href="https://cms-done12.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                     </div>
+
                 </div>
             </div>
 
@@ -1143,15 +1171,20 @@
                 <div class="project-content">
                     <h3 class="project-title">JustiFy</h3>
                     <p class="project-description">
-                        Next-generation Sentiment Analysis Product
+                        Next-generation Sentiment Analysis Product using ML
                     </p>
                     <div class="project-tags">
                         <span class="tag">AI/ML</span>
                         <span class="tag">Next.js</span>
                         <span class="tag">Python</span>
                     </div>
+                     <div class="project-links">
+                        <a class="project-link" href="https://github.com/mahapatran514-sudo/justify" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a class="project-link" href="https://your-live-demo-link.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                     </div>
                 </div>
             </div>
+           
 
             <div class="project-card">
                 <div class="project-image">03</div>
@@ -1165,21 +1198,29 @@
                         <span class="tag">HTML/CSS</span>
                         <span class="tag">Canvas</span>
                     </div>
+                    <div class="project-links">
+                        <a class="project-link" href="https://github.com/nibeditampa/portfolio_niv" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a class="project-link" href="https://your-live-demo-link.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                     </div>
                 </div>
             </div>
 
             <div class="project-card">
                 <div class="project-image">04</div>
                 <div class="project-content">
-                    <h3 class="project-title">Nexus Social</h3>
+                    <h3 class="project-title"> Social Blog</h3>
                     <p class="project-description">
-                        Social media platform with advanced real-time messaging and content sharing.
+                        Blog media platform with advanced article reading & content sharing.
                     </p>
                     <div class="project-tags">
-                        <span class="tag">Socket.io</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">Redis</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Shadcn/Lucide React</span>
+                        <span class="tag">Motion.dev</span>
                     </div>
+                    <div class="project-links">
+                        <a class="project-link" href="https://github.com/yourusername/nexus-social" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a class="project-link" href="https://your-live-demo-link.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                     </div>
                 </div>
             </div>
 
@@ -1223,28 +1264,30 @@
                 Ready to bring your next project to life? Let's collaborate and create something extraordinary together.
             </p>
             <div class="contact-methods">
-                <div class="contact-item">
+                <a class="contact-item" href="mailto:nibedita.mpa@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Nibedita%2C%20I%20found%20your%20portfolio%20and%20wanted%20to%20connect.">
                     <div class="contact-icon">📧</div>
                     <div class="contact-label">Email</div>
                     <div class="contact-value">nibedita.mpa@gmail.com</div>
-                </div>
-                <div class="contact-item">
+                </a>
+
+                <a class="contact-item" href="https://www.linkedin.com/in/nibeditampa/" target="_blank" rel="noopener noreferrer">
                     <div class="contact-icon">💼</div>
                     <div class="contact-label">LinkedIn</div>
                     <div class="contact-value">@nibeditampa</div>
-                </div>
-                <div class="contact-item">
+                </a>
+
+                <a class="contact-item" href="https://github.com/nibeditampa" target="_blank" rel="noopener noreferrer">
                     <div class="contact-icon">🐙</div>
                     <div class="contact-label">GitHub</div>
                     <div class="contact-value">@nibeditampa</div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p class="footer-text">© 2026 NEXUS. Crafted with passion and innovation.</p>
+        <p class="footer-text">© 2026 . Crafted with passion and innovation by NIBEDITA ❤️.</p>
     </footer>
 
     <script>
